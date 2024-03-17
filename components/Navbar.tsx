@@ -25,7 +25,7 @@ export default function Navbar({ className }: { className?: string }) {
               title="Smart Fan"
               href="https://algochurn.com"
               src="https://assets.aceternity.com/demos/algochurn.webp"
-              description="Use technology with your fan."
+              description="Make your fan smart"
             />
             <ProductItem
               title="Smart Bulb"
