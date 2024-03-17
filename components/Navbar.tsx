@@ -13,10 +13,10 @@ export default function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
+            <HoveredLink href="/web-dev">Online Support</HoveredLink>
+            <HoveredLink href="/interface-design">Customer Care</HoveredLink>
+            <HoveredLink href="/seo">Design Center</HoveredLink>
+            <HoveredLink href="/branding">Personalisation</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Products">
@@ -24,19 +24,19 @@ export default function Navbar({ className }: { className?: string }) {
             <ProductItem
               title="Smart Fan"
               href="https://algochurn.com"
-              src="https://assets.aceternity.com/demos/algochurn.webp"
+              src="https://i.pinimg.com/564x/6e/b1/14/6eb114c0e55a2ce0aff1fec06ef880db.jpg"
               description="Make your fan smart"
             />
             <ProductItem
               title="Smart Bulb"
               href="https://tailwindmasterkit.com"
-              src="https://img.freepik.com/free-vector/bulb-light-energy-power-icon_18591-82483.jpg?t=st=1710655776~exp=1710659376~hmac=a3ffcb9e88af3180723433cca49234156d5c75bb44bb346fa48b8989ae6550e4&w=740"
+              src="https://i.pinimg.com/564x/6e/b1/14/6eb114c0e55a2ce0aff1fec06ef880db.jpg"
               description="Production ready Tailwind css components for your next project"
             />
             <ProductItem
               title="Smart Led"
               href="https://gomoonbeam.com"
-              src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
+              src="https://i.pinimg.com/564x/6e/b1/14/6eb114c0e55a2ce0aff1fec06ef880db.jpg"
               description="Never write from scratch again. Go from idea to blog in minutes."
             />
             <ProductItem
